@@ -1,0 +1,6 @@
+nav button { width:100%;border:0;background:transparent;color:#596661;display:flex;gap:11px;align-items:center;padding:11px 12px;border-radius:9px;font-size:13px;margin-bottom:3px;text-align:left; }
+nav button.active { background:var(--mint);color:#133d32;font-weight:700; }
+nav button b { margin-left:auto;background:#e8f4ee;padding:1px 6px;border-radius:9px;font-size:10px; }
+.evidence-popover { margin-top:8px;padding:8px;border-left:2px solid #7fae96;background:#f3f8f5;color:#557066;font-size:10px; }
+.decision-actions button:disabled,.sign:disabled { cursor:not-allowed;opacity:.65; }
+.toast { position:fixed;right:24px;bottom:24px;max-width:360px;background:#16483c;color:#fff;padding:13px 16px;border-radius:8px;box-shadow:0 10px 30px #17342a44;font-size:12px;z-index:5; }
